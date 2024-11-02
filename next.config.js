@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/weather-app',
   eslint: {
     ignoreDuringBuilds: true,
   },
